@@ -1,0 +1,6 @@
+<div class="svg-container">
+  <ng-lottie [options]="options_heart"></ng-lottie>
+</div>
+<div class="svg-container" (click)="ding()">
+  <ng-lottie [options]="options_bell" (animationCreated)="animationCreated($event)"></ng-lottie>
+</div>
